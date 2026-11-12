@@ -1,0 +1,14 @@
+
+{
+  "name": "esp32s3-online-messenger",
+  "version": "1.0.0",
+  "description": "ESP32-S3 realtime messaging server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
+}
